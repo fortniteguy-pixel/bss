@@ -1536,12 +1536,12 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=15000
-                stats.whitePollen*=1.1
-                stats.whiteBeeAttack+=1
+                stats.capacity+=1000000000
+                stats.whitePollen*=30
+                stats.whiteBeeAttack+=10
             },
-            desc:'A right shoulder pad crafted by a Brave Bee.<br><br>+15,000 capacity<br>x1.1 white pollen<br>+1 white bee attack',
-            cost:['100000 honey','1 stinger'],
+            desc:'A right shoulder pad crafted by a Brave Bee.<br><br>+1,000,000,000capacity<br>x30 white pollen<br>+10 white bee attack',
+            cost:['100000000000000 honey','500 stinger'],
         },
 
         blueGuard:{
@@ -1554,10 +1554,10 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.convertRate*=1.1
-                stats.blueBeeAttack+=1
-                stats.capacity+=25000
-                stats.bluePollen*=1.1
+                stats.convertRate*=999
+                stats.blueBeeAttack+=999
+                stats.capacity+=999999999999999
+                stats.bluePollen*=1000
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.03)
             },
             desc:'A durable pad worn on the right shoulder of blue beekeepers.<br><br>+25,000 capacity<br>x1.1 blue pollen<br>x1.1 convert rate<br>+3% instant blue conversion<br>+1 blue bee attack',
