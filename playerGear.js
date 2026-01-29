@@ -932,17 +932,17 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=300000
-                stats.capacityMultiplier*=2
-                stats.lootLuck*=2
-                stats.convertRate*=1.8
+                stats.capacity+=200000000
+                stats.capacityMultiplier*=10
+                stats.lootLuck*=5
+                stats.convertRate*=5
                 stats.honeyFromTokens*=1.5
                 stats.whiteBeeAttack+=2
-                stats.whiteBombPollen*=1.5
-                stats.beeEnergy*=1.25
+                stats.whiteBombPollen*=5
+                stats.beeEnergy*=3
                 player.addEffect('petalStormPassive')
             },
-            desc:'Drape these petals about your waist to harness unlimited flower power.<br><br>+300,000 capacity<br>x2 capacity<br>x2 loot luck<br>x1.8 convert rate<br>x1.5 honey from tokens<br>+2 white bee attack<br>x1.5 white bomb pollen<br>x1.25 bee energy<br>+Passive: Petal Storm',
+            desc:'Drape these petals about your waist to harness unlimited flower power.<br><br>+200,000,000 capacity<br>x10 capacity<br>x5 loot luck<br>x5 convert rate<br>x1.5 honey from tokens<br>+2 white bee attack<br>x5 white bomb pollen<br>x3 bee energy<br>+Passive: Petal Storm',
             cost:['15000000000 honey','15 starJelly','50 glitter','75 glue','1 spiritPetal'],
         }
     },
@@ -1202,16 +1202,16 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=3500000
-                stats.convertRate*=5
+                stats.capacity+=350000000
+                stats.convertRate*=10
                 stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.15)
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.15)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.15)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.1)
-                stats.whitePollen*=1.25
-                stats.whitePollen*=1.25
-                stats.redPollen*=1.25
-                stats.bluePollen*=1.25
+                stats.whitePollen*=2
+                stats.whitePollen*=15
+                stats.redPollen*=15
+                stats.bluePollen*=15
                 stats.whiteBeeAttack+=2
                 stats.redBeeAttack+=2
                 stats.blueBeeAttack+=2
@@ -1220,7 +1220,7 @@ window.playerGear={
                 player.addEffect('inspireCoconutsPassive')
                 player.addEffect('emergencyCoconutShieldPassive')
             },
-            desc:'A back-mounted coconut that protects you during emergencies.<br><br>+2,500,000 capacity<br>x5 convert rate<br>+15% instant conversion<br>+10% instant white conversion<br>x1.25 pollen<br>x1.25 white pollen<br>+2 bee attack<br>+10% defense<br>x1.1 honey at hive<br>+Passive: Emergengy Coconut Shield<br>+Passive: Inspire Coconuts',
+            desc:'A back-mounted coconut that protects you during emergencies.<br><br>+350,000,000 capacity<br>x10 convert rate<br>+15% instant conversion<br>+10% instant white conversion<br>x15 pollen<br>x2 white pollen<br>+2 bee attack<br>+10% defense<br>x1.1 honey at hive<br>+Passive: Emergengy Coconut Shield<br>+Passive: Inspire Coconuts',
             cost:['20000000000 honey','75 tropicalDrink','100 redExtract','100 blueExtract'],
         }
     },
