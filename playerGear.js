@@ -1467,11 +1467,11 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.convertRate*=1.25
-                stats.redBeeAttack+=2
-                stats.capacity+=150000
-                stats.redPollen*=1.25
-                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.15)
+                stats.convertRate*=99
+                stats.redBeeAttack+=222
+                stats.capacity+=999999*99999999
+                stats.redPollen*=20000
+                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.1)
                 stats.criticalChance+=0.08
             },
             desc:'A piece of armor forged by the leader of red bees!<br><br>+150,000 capacity<br>x1.25 red pollen<br>x1.25 convert rate<br>+15% instant red conversion<br>+8% critical chance<br>+2 red bee attack',
